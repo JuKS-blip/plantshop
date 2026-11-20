@@ -1,0 +1,231 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Schriften */
+html {
+    font-family: var(--body-text);
+    font-size: 100%;
+    color: var(--dark);
+    text-wrap: pretty;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--display-text);
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+}
+
+
+h3 {
+    font-size: 2rem;
+}
+
+
+h4 {
+    font-size: 1.7rem;
+}
+
+
+
+.subheading {
+    font-family: var(--subheading);
+    font-size: 1.4rem;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.product-name h3 {
+    font-family: var(--display-text);
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+.preis {
+    font-family: var(--display-text);
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+a {
+    font-family: var(--display-text);
+}
+
+/* Abstände */
+/* p = padding, x = horizontal, y = vertikal */
+
+/* Abstände */
+/* p = padding, x = horizontal, y = vertikal */
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.px-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.px-4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.px-5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.px-6 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.py-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+
+/* Bilder responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Schriftformatierung */
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+footer a {
+    font-family: var(--body-text);
+    
+}
+
+/* Links */
+a {
+    font-family: var(--display-text);
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Buttons */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    /* 16px / 32px, Stufen 1 und 2 der Abstandsskala */
+    border: none;
+    font-family: var(--display-text);
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+a:hover,
+.btn:hover {
+    filter: brightness(80%);
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
